@@ -1,3 +1,3 @@
-FROM jboss/wildfly
+FROM jboss/wildfly:17.0.1
 
-ADD *.war /opt/jboss/wildfly/standalone/deployments/
+COPY *.jar /opt/jboss/wildfly/standalone/deployments/
