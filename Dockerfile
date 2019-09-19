@@ -1,3 +1,3 @@
-FROM jboss/wildfly:17.0.1.Final
+FROM busbybox:1.31.0
 
-COPY my-app-1.0-SNAPSHOT.jar /opt/jboss/wildfly/standalone/deployments/
+COPY * /app/
